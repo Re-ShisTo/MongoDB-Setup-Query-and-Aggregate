@@ -1,8 +1,17 @@
 #### MongoDB Database Set Up and User Manual
 
+##### Required Materials:
+
+- MogoDB Atlas
+  or,
+  [MongoDB community sever](https://www.mongodb.com/try/download/community-kubernetes-operator) with [Compass](https://www.mongodb.com/products/tools/compass) to control a server and database.
+- Install MongoDB for VSCode extension to connect to the database.
+
+##### File setup:
+
 1. Create a file as `fileName.mongodb.js`
-2. Create a connection with the MongoDB for VSCode with atlas or compass.
-3. Create a database & collection:
+1. Create a connection with the MongoDB for VSCode with atlas or compass.
+1. Create a database & collection:
 
 ```js
 use("dbName");
